@@ -6,16 +6,22 @@
 // }
 // // Your code goes here
 // ```
-let percentage =  function (marks, total) {
+let percentage =  function(marks, total) {
     return (marks * 100) / total;
 }
+
+percentage = (marks, total) => {
+    return (marks * 100) / total;
+  }
+
+ percentage = (marks, total) => (marks * 100) / total;
 // 2. Write Function Declaration or Function Expression next to the function.
 
 // ```js
 // function percentage(marks, total) {
 //   return (marks * 100) / total;
 // }
-// // Your answer
+// // function Declaration
 // ```
 function percentage(marks, total) {
     return (marks * 100) / total;
@@ -25,23 +31,23 @@ function percentage(marks, total) {
 //   return (marks * 100) / total;
 // };
 // ```
-
+// Function expression
 // ```js
 // let percentage = function (marks, total) {
 //   return (marks * 100) / total;
 // };
 // ```
-
+// Anonymous Function/Function expression
 // ```js
 // let percentage = (marks, total) => {
 //   return (marks * 100) / total;
 // };
 // ```
-
+//Arrow Function/Function expression
 // ```js
 // let percentage = (marks, total) => (marks * 100) / total;
 // ```
-
+// Arrow functiom/Function expression
 // 3. Why is a function definition an expression in JavaScript? Give one example of function expression.
 
 // 4. Why is a function call an expression in JavaScript?
