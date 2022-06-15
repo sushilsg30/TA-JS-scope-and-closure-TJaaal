@@ -24,7 +24,8 @@ console.log(fullName);
 var userMessage = sayHelloToUser('Bran');
 ```
 
-<!-- Put your image below -->
+<!-- Put your image below --> //Declaration phase => firstName,lastName, sayHelloToUsr,fullName and jon and last userMessage
+                              // Exexcution phase => firstName = "Arya", latName = "Stark"; skip ,skip fullName = "Arya Stark"; jon = "John Snow"; skip and console; 
 
 ![](./img/image-name.jpg)
 
@@ -41,7 +42,7 @@ function sayHi() {
 sayHi();
 ```
 
-<!-- Put your image below -->
+<!-- Put your image below --> //DP => sayHi(); EXP => name = "Lydia", age = "21" and then console;
 
 ![](./img/image-name.jpg)
 
@@ -55,7 +56,7 @@ function sayHi() {
   var age = 21;
 }
 
-sayHi();
+sayHi(); // first phase skip again repeat. execution phase.
 ```
 
 <!-- Put your image below -->
@@ -72,5 +73,5 @@ var arr = [1, 2, 3, 4, 5, 6];
 
 function double(num) {
   return num * 2;
-}
+}   //same here
 ```
