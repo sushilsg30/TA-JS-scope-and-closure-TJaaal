@@ -12,12 +12,13 @@ function change() {
   console.log(species);
 }
 
-console.log(species); // 1
+console.log(species); // human
 change();
-console.log(species); // 2
+console.log(species); // human
 ```
 
-<!-- Put your image below -->
+<!-- Put your image below --> 
+
 
 ![](./img/image-name.jpg)
 
@@ -35,8 +36,8 @@ function topLevelFn() {
   function nestedFn() {
     var anotherLocalVar = "Local to nestedFn's scope.";
 
-    console.log(localVar); // 1
-    console.log(topLevelVar); // 2
+    console.log(localVar); // "This is local to topLevelFn's scope"
+    console.log(topLevelVar); // "Local to nestedFn's scope."
   }
 
   nestedFn();
@@ -68,12 +69,12 @@ function main() {
     console.log(two); // 2
     console.log(three); // 3
   }
-  console.log(four); // 4
+  console.log(four); // undefined
   inner();
 }
 
 main();
-console.log(one, two, three, four); // 5
+console.log(one, two, three, four); // 1,2,3,undefined
 ```
 
 <!-- Put your image below -->
