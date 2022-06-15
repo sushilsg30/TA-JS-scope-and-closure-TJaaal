@@ -37,7 +37,7 @@ function topLevelFn() {
     var anotherLocalVar = "Local to nestedFn's scope.";
 
     console.log(localVar); // "This is local to topLevelFn's scope"
-    console.log(topLevelVar); // "Local to nestedFn's scope."
+    console.log(topLevelVar); // "This is global scope!"
   }
 
   nestedFn();
