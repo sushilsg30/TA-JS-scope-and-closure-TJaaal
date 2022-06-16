@@ -42,7 +42,7 @@ function multiplyArrayByN(arr, n) {
 let numbers = multiplyArrayByN(marks);
 ```
 
-Create the execution context diagram of the following code line by line.
+Create the execution context diagram of the following code line by line. //
 
 ```js
 counter();
@@ -55,7 +55,7 @@ function counter(){
 }
 ```
 
-Create the execution context diagram of the following code line by line.
+Create the execution context diagram of the following code line by line. //
 
 ```js
 counter();
