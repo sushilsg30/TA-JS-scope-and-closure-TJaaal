@@ -28,7 +28,7 @@ let numbersMultipliedBy5 = multiplyArrayByN(marks, multiplyBy5);
 
 ```js
 function operation(n, opFn) {
-  
+  return  oPfn(n);
 }
 // TEST
 console.log(
@@ -49,7 +49,7 @@ console.log(
 
 ```js
 function operation(str, opFn) {
-  // your code goes her
+  return opfn(str);
 }
 // TEST
 console.log(
