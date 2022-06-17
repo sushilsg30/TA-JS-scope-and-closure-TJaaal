@@ -1,5 +1,15 @@
 1. Create a function by your choice that accepts a callback function.
+//
+let arr = [2,4,5,6]
+multplyByN(arr,cb) {
+  return arr * n
+}
 
+function cb(n) {
+  return n*n;
+}
+
+console.log(muliplyByN);
 2. Create a function by you choice that returns a function reference.
 
 3. Create a higher order function called `map` that takes two inputs:
