@@ -113,7 +113,7 @@ let sayHello = () => {
   var username = "John";
   console.log(username);
 };
-sayHello(); // OUTPUT //undrfined
+sayHello(); // OUTPUT //undrfined /John
 ```
 
 Find the output of the code snippets below:
