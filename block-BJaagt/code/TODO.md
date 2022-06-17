@@ -28,7 +28,7 @@ console.log(useranme); //Uncaught ReferenceError: useranme is not defined
 if (true) {
   let username = 'Arya';
 }
-console.log(useranme); // Uncaught ReferenceError: useranme is not defined
+console.log(useranme); // Uncaught ReferenceError: useranme is not defined //Arya
 ```
 
 4. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -37,7 +37,7 @@ console.log(useranme); // Uncaught ReferenceError: useranme is not defined
 if (true) {
   var username = 'Arya';
 }
-console.log(useranme); // VM94:4 Uncaught ReferenceError: useranme is not defined
+console.log(useranme); // VM94:4 Uncaught ReferenceError: useranme is not defined //Arya
 ```
 
 5. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -57,7 +57,7 @@ let username = 'John';
 if (true) {
   let username = 'Arya';
 }
-console.log(useranme); // output //Uncaught SyntaxError: Identifier 'username' has already been declared
+console.log(useranme); // output //Uncaught SyntaxError: Identifier 'username' has already been declared //John
 ```
 
 7. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -68,7 +68,7 @@ function sayHello() {
   let username = 'Arya';
 }
 sayHello();
-console.log(useranme); // output //Uncaught SyntaxError: Identifier 'username' has already been declared
+console.log(useranme); // output //Uncaught SyntaxError: Identifier 'username' has already been declared //John
 ```
 
 8. Go through the code below and write down the process of making decision about looking for the variable. Also write the output of the code below.
@@ -85,6 +85,7 @@ for (var i = 0; i < 10; i++) {
 // 7 'First'
 // 8 'First'
 // 9 'First'
+// 10 'Second'
 }
 console.log(i, 'Second'); // undefined
 ```
@@ -95,5 +96,5 @@ console.log(i, 'Second'); // undefined
 for (let i = 0; i < 10; i++) {
   console.log(i, 'First'); // output
 }
-console.log(i, 'Second'); // output //same as above.
+console.log(i, 'Second'); // output //same as above. //i is not defined.
 ```
