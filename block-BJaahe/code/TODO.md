@@ -3,20 +3,33 @@
 1. Write a function, `outer` that takes an input `string`. Inside the function `outer` define another function expression named `sayHello` which alerts the `input`. `sayHello` should be call immediately after it is defined.
 
 ```js
-// Your code goes here
+function outer(str) {
+  let sayHello = () => {
+    alert(`${input}`)
+  } 
+  sayHello();
+}
 ```
 
 2. Write a function `delay` that accepts two arguments, a callback and the wait for the time in milliseconds (1000 ms is 1 second). `delay` should return a function that, when invoked waits for the specified amount of time before executing. (Use setTimeout)
 
 ```js
-// Your code goes here
+function delay(wait,cb) {
+  return cb;
+} 
+function waitTime() => setTimeout {
+
+}
 ```
 
 3. Write a function with a closure. The first function should only take one argument, someone's last name, and return the inner function. The returned `inner` function should take one more argument, someone's first name. When inner function when called it should console.log both the first name and the last name with a space.
 
 ```js
 function lastName() {
-  //  Your code goes here
+  return firstName();
+  function firstName() {
+    return console.log(`${firstName} + ${lastName}`);
+  }
 }
 
 let lastNameLee = lastName('lee'); // logs nothing
@@ -34,7 +47,14 @@ lastNameLee('Lynne'); //logs 'Lynne Lee'
 
 ```js
 function storyWriter() {
-  // Your code goes here
+  let final = ["There was once a lonely cow."];
+  function addWords("str") {
+    final.push(`${str}`);
+    return final;
+  }
+  function erase() {
+    return final;
+  }  
 }
 
 // Test
@@ -54,8 +74,9 @@ storyOfMyLife.erase(); // ''
 When `forEach` function is called it returns another function. When the returned function is called it returns the element from the array at specific index. Every time you call the returned function the value of index should increment.
 
 ```js
-function forEach() {
-  // Your code goes here
+function forEach(arr,para) {
+  let index = 0;
+  
 }
 
 let next = [1, 2, 3, 4, 5];
