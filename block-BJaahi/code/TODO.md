@@ -20,7 +20,7 @@ let message = sayHello(username);
 var nextMessage = sayHello('Test');
 ```
 
-<!-- Answer -->
+<!-- Answer -->//
 
 ```js
 // Declaration Phase
