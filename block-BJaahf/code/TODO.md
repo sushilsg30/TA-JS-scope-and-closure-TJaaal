@@ -10,7 +10,7 @@
 **You can use normal for loop for this function**
 
 ```js
-function loop() {
+function loop(sv,cb) {
   // Your code goes here
 }
 
