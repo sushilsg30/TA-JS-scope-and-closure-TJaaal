@@ -95,7 +95,7 @@ function isAwesome() {
   }
   console.log(awesome);
 }
-isAwesome(); //undefined, undefined
+isAwesome(); //undefined
 ```
 
 9. What will be the output of the following
@@ -108,7 +108,7 @@ function isAwesome() {
   }
   console.log(awesome);
 }
-isAwesome(); //true,undefined
+isAwesome(); //true
 ```
 
 10. What will be the output of the following
@@ -121,7 +121,7 @@ function isAwesome() {
   }
   console.log(awesome);
 }
-isAwesome(); //und und
+isAwesome(); //und 
 ```
 
 11. What will be the output of the following
@@ -354,5 +354,6 @@ let allFunctions = [
   half,
 ];
 
+allFunctions.reduce((acc,cv) => cv(acc), 100);
 // Answer is: 447
 ```
